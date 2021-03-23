@@ -15,7 +15,7 @@ pipeline {
         stage('Build Image') {
             steps {
                 script {
-                	app = docker.build("mdelgado244/docker_test")
+                	app = docker.build("marianodg/docker_test_1")
                 }
             }
         }
