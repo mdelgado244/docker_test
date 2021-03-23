@@ -15,7 +15,7 @@ pipeline {
         stage('Build Image') {
             steps {
                 script {
-                	app = docker.build("mdelgado244/selenium-docker")
+                	app = docker.build("mdelgado244/docker_test")
                 }
             }
         }
